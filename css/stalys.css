@@ -1,2 +1,57 @@
+body {
+    font-family:"Open Sans",Verdana,sans-serif;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* ---------------header--------------- */
 
+.header {
+    background-color: gray;
+}
+
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color:  #FF6C00;
+}
+.header-tel {
+    font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.header-button {
+    font-family: inherit;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+cursor: pointer;
+background-color: transparent;
+border: 1px solid #FFFFFF;
+}
+.header-button:hover,
+.header-button:focus {
+    border-color: #FF6C00;
+    
+}
     
