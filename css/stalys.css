@@ -3,6 +3,7 @@
     --main-button-color:#ffffff;
     --secondary-title-color: #303030;
     --secondary-button-color:#303030;
+    --accent-color: #FF6C00;
 }
 
 body {
@@ -33,7 +34,7 @@ color: var(--main-title-color);
 }
 .nav-link:hover,
 .nav-link:focus {
-    color:  #FF6C00;
+    color: var(--accent-color);
 }
 .header-tel {
     font-weight: 600;
@@ -59,7 +60,7 @@ border-radius: 25px;
 }
 .header-button:hover,
 .header-button:focus {
-    border-color: #FF6C00;   
+    border-color: var(--accent-color);   
 }
 /* ---------------header--------------- */
 
@@ -85,7 +86,7 @@ color: var(--secondary-title-color);
 }
 .hero-link:hover,
 .hero-link:focus {
-    color: #FF6C00;
+    color: var(--accent-color);
 }
 .hero-text {
 font-weight: 600;
@@ -153,7 +154,7 @@ border-radius: 25px;
 }
 .about-button:hover,
 .about-button:focus {
-    border-color: #FF6C00;
+    border-color: var(--accent-color);
 
 }
     
